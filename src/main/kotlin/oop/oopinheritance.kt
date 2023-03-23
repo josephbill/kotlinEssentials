@@ -9,6 +9,8 @@ open class MyParentClass {
         println("Here from parent")
     }
 }
+
+
 //subclass
 class MyChildClass(var name: String): MyParentClass() {
     fun childFunction(){
